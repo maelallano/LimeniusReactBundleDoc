@@ -84,7 +84,7 @@ Download it:
 ```
 yarn add @symfony/webpack-encore --dev
 ```
-Next, create a new webpack.config.js file at the root of your project:
+Next, create a new **webpack.config.js** file at the root of your project:
 ```js
 var Encore = require('@symfony/webpack-encore');
 
@@ -114,7 +114,7 @@ Encore
 module.exports = Encore.getWebpackConfig()
 ```
 
-And also a webpack.config.serverside.js file:
+And also a **webpack.config.serverside.js** file:
 ```js
 var Encore = require('@symfony/webpack-encore');
 
